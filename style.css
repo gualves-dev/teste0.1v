@@ -185,7 +185,7 @@ main h2 {
 .DiaDaSemanaBox {
     border: 1px solid var(--border-color);
     border-radius: var(--radius);
-    padding: 15px 20px; /* REDUZIDO: de 45px para 20px. Adicionado 15px em cima/baixo */
+    padding: 15px 45px; /* REDUZIDO: de 45px para 20px. Adicionado 15px em cima/baixo */
     background: rgba(58, 58, 58, 0.1);
     display: flex;
     flex-direction: column;
