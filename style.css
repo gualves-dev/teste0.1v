@@ -175,16 +175,16 @@ main h2 {
     display: flex;
     align-items: center;
     margin-left: 5px;
-    gap: 15px; /* REDUZIDO: de 40px para 15px para caber os 7 dias */
+    /* REDUZIDO: de 40px para 15px para caber os 7 dias */
+    justify-content: space-between;
     flex: 1; /* Adicionado: faz a caixa preencher o espaço restante */
-    justify-content: space-between; /* Distribui os dias por igual */
     border-radius: var(--radius);
 }
 
 .DiaDaSemanaBox {
     border: 1px solid var(--border-color);
     border-radius: var(--radius);
-    padding: 15px 20px; /* REDUZIDO: de 45px para 20px. Adicionado 15px em cima/baixo */
+    padding: 15px 50px; /* REDUZIDO: de 45px para 20px. Adicionado 15px em cima/baixo */
     background: rgba(58, 58, 58, 0.1);
     display: flex;
     flex-direction: column;
@@ -202,7 +202,7 @@ border: 1px solid var(--color-primary-hover);
 
 .DiaDaSemanaBox h5 {
     color: #f7ab08;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -210,7 +210,7 @@ border: 1px solid var(--color-primary-hover);
     margin-top: 7px;
     display: flex;
     justify-content: center;
-    font-size: 12px;
+    font-size: 13px;
     color: var(--text-secondary);
 }
 
